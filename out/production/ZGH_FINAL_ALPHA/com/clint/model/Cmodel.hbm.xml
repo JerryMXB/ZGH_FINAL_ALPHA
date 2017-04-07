@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.clint.model.Cmodel" table="Cmodel">
+		<id name="cname" column="cname" type="string">
+            <generator class="assigned" />
+		</id>
+		<property name="cdate" column="cdate" type="string" />
+		<property name="ctel" column="ctel" type="string" />
+        <property name="cworkfield" column="cworkfield" type="string" />
+		<property name="cevent" column="cevent" type="string" />
+		<property name="ctitle" column="ctitle" type="string" />
+	</class>
+</hibernate-mapping>

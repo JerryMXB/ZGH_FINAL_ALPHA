@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.clint.model.Wmodel" table="Wmodel">
+		<id name="mid" column="mid" type="string">
+		</id>
+		<property name="mname" column="mname" type="string" />
+		<property name="msex" column="msex" type="string" />
+		<property name="mnation" column="mnation" type="string" />
+		<property name="mbirthdate" column="mbirthdate" type="string" />
+		<property name="mpolstat" column="mpolstat" type="string" />
+		<property name="mjob" column="mjob" type="string" />
+		<property name="mexhonor" column="mexhonor" type="string" />
+		<property name="mexhonorcomp" column="mexhonorcomp" type="string" />
+		<property name="mtel" column="mtel" type="string" />
+        <property name="mworkfield" column="mworkfield" type="string" />
+        <property name="mhealth" column="mhealth" type="string" />
+		<property name="mfamily" column="mfamily" type="string" />
+		<property name="mevent" column="mevent" type="string" />
+		<property name="mhonordetail" column="mhonordetail" type="string" />
+		<property name="mhonorcomp" column="mhonorcomp" type="string" />
+		<property name="mdocnumber" column="mdocnumber" type="string" />
+		<property name="mhonorbasis" column="mhonorbasis" type="string" />
+		<property name="mdate" column="mdate" type="string" />
+		<property name="mtitle" column="mtitle" type="string" />
+		<property name="mtreat" column="mtreat" type="string"/>
+		<property name="mstat" column="mstat" type="string"/>
+	</class>
+</hibernate-mapping>
